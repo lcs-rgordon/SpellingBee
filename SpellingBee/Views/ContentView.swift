@@ -8,9 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    // MARK: Stored properties
+    @State var currentItem = itemsToSpell.randomElement()!
+    
+    // MARK: Computed properties
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        VStack {
+            
+            Image(currentItem.imageName)
+                .resizable()
+                .scaledToFit()
+
+            
+        }
+        
     }
 }
 
