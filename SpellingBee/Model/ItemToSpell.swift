@@ -78,8 +78,8 @@ let itemsToSpell = [
     ItemToSpell(word: "mushroom",
                 imageName: "mushroom"),
     
-    ItemToSpell(word: "milk",
-                imageName: "milk"),
+    ItemToSpell(word: "milkshake",
+                imageName: "milkshake"),
     
     ItemToSpell(word: "lemon",
                 imageName: "lemon"),
